@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Protest+Revolution&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+
 .App {
   text-align: center;
+}
+body{
+  background-color: black;
 }
 
 .App-logo {
@@ -35,4 +46,248 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* header */
+.logo{
+  border-radius: 50%;
+}
+.navbar{
+  background-color: rgb(0, 0, 0);
+}
+.offcanvas-top {
+  top: 0;
+  transform: translateX(0);
+ border-radius: 5px ;
+  background-color: black;
+  color: white;
+}
+.BlogName{
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.6rem;
+}
+.menuIcon{
+  color: white;
+}
+.OffCanvasTitle{
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.6rem;
+}
+.OffCanvasBody{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.Navtitle{
+  font-size: 3rem;
+  font-family: 'Protest Revolution', sans-serif;
+  margin: 20px;
+}
+.Home-Title{
+  color: white;
+  font-size: 6rem;
+  margin-top: 150px;
+  font-family: 'Cormorant Garamond', serif;
+}
+.homeCaption{
+  font-family: 'Dancing Script', cursive;
+}
+.homeImage{
+  width: 700px;
+  height: 400px;
+}
+.parallax{
+  height: 500px;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+
+.imageDiv{
+  display: flex;
+  align-items: end;
+}
+.img1{
+  display: flex;
+ 
+  height: 450px;
+  width: 350px;
+  margin-top: 100px;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-left: 200px;
+  
+
+}
+.TextDiv{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.text-1{
+  
+  text-align: justify;
+  font-family: 'Teko', sans-serif;
+  width: 300px;
+  margin-right: 200px;
+  margin-top: 100px;
+  color: white;
+}
+
+.text-2 {
+
+  display: flex;
+  font-size: 6rem;
+  margin-top: 100px;
+  color: white;
+  font-family: 'Teko', sans-serif;
+  width: 900px;
+
+}
+.text-2Div{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+
+.visible {
+  opacity: 1;
+}
+
+/* CardPic */
+
+.card-1{
+  border: 2px solid white;
+  margin: 10px;
+
+  
+}
+
+.cardContent{
+  background-color: rgb(13, 78, 34);
+}
+.expanded-image {
+  height: 270px;
+  
+  transition: height 3s ease; /* Add a smooth transition effect */
+}
+
+.card-1.expanded .cardContent {
+  display: none; /* Hide the card content when image is expanded */
+}
+/* .cardTwo{
+  margin-top: 80px;
+  margin-left: 400px;
+} */
+
+
+
+.MainDivCard{
+  margin-left: 100px;
+  margin-top: 100px;
+ 
+}
+
+
+.divOneCard{
+  display: flex;
+ 
+}
+
+
+.divTwoCard{
+  display: flex;
+  margin-left: 200px;
+}
+
+.text-3Div{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.text-3{
+  color: white;
+  font-size: 3rem;
+  font-family: 'Protest Revolution', sans-serif;
+
+}
+
+/* StandardImageList*/
+.image-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.imagelist-Item{
+  margin-left: 80px;
+  margin-right: 70px;
+}
+.list-Card{
+  background-color: #a71212;
+}
+
+.card-photo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.photo-para{
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  width: 360px;
+  font-size: 1.1rem;
+  font-family: "Kode Mono", monospace;
+  
+}
+
+
+.Histo-Title{
+  display: flex;
+  font-size: 6rem;
+  margin-top: 100px;
+  color: white;
+  font-family: 'Teko', sans-serif;
+  
+}
+.img-title{
+  display: flex;
+  margin-top: 100px;
+  
+  
+  
+}
+.img-title h2{
+  color: white;
+  font-family: 'Teko', sans-serif;
+font-size: 3rem;
+}
+.img-main{
+  display: flex;
+  margin-top: 30px;
+
+}
+.afg-girl{
+  height: 450px;
+  width: 330px;
+  border: 2px solid white;
+}
+.afg-para{
+  text-align: justify;
+  width: 700px;
+  margin-left: 80px;
+  color: white;
+}
+
+.monk-img{
+  width: 400px;
+  height: 300px;
+  background-color: #1e1e1f;
+}
+.foot-div{
+  margin-top: 140px ;
 }

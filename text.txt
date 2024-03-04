@@ -1,0 +1,30 @@
+Header
+   
+    -Home
+    -About
+    -Gallery
+    -Photos
+    -Contact
+
+
+
+     useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const handleScroll = () => {
+    const aboutElement = document.querySelector('.text-2');
+    if (!aboutElement) return;
+
+    const position = aboutElement.getBoundingClientRect();
+    const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+    // Checking whether fully visible
+    if (position.top >= 0 && position.bottom <= windowHeight) {
+      aboutElement.classList.add('visible');
+    } else {
+      aboutElement.classList.remove('visible');
+    }
+  };
