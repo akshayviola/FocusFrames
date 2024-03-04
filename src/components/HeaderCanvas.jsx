@@ -22,7 +22,7 @@ const HeaderCanvas = ({ name, ...props }) => {
                 <Offcanvas.Body>
                    <div  className='OffCanvasBody' >
                         <h5 className='Navtitle'>Home</h5>
-                        <h5 className='Navtitle'>About</h5>
+                        <h5 className='Navtitle'>Blog</h5>
                         <h5 className='Navtitle'>Photos</h5>
                         <h5 className='Navtitle'>Contact</h5>
                         
