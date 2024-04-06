@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<Home />} /> {/* Define your routes */}
           <Route path='blog' element={<Blog/>}/>
         </Routes>
-        <Footer/>
+        
       </Router>
 
     </div>

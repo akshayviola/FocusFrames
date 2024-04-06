@@ -3,6 +3,7 @@ import { Parallax } from 'react-parallax';
 import { TypeAnimation } from 'react-type-animation';
 import CardsPic from '../components/CardsPic';
 import StandardImageList from '../components/StandardImageList';
+import Footer from '../components/Footer';
 
 const Home = () => {
 
@@ -88,6 +89,7 @@ const Home = () => {
            </div>
 
       </div>
+      <Footer/>
     </>
   )
 }

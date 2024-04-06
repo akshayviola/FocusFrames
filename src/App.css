@@ -291,3 +291,30 @@ font-size: 3rem;
 .foot-div{
   margin-top: 130px ;
 }
+
+.Navtitle a {
+  text-decoration: none;
+  color: white;
+}
+.come-title{
+  font-size: 4rem;
+  color: white;
+  
+}
+
+
+@keyframes moveText {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px); /* Adjust distance of movement as desired */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.come-title {
+  animation: moveText 2s infinite; /* Adjust animation duration as desired */
+}
