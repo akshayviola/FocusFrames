@@ -5,7 +5,7 @@ import EmailIcon from '@mui/icons-material/Email';
 
 const Footer = () => {
   return (
-    <div>
+    <div className='footDiv-main'>
         <Card  border="danger" style={{ width: '100%',height:'300px',backgroundColor:'black' }}>
         
         <Card.Body>

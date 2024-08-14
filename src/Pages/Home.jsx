@@ -3,7 +3,9 @@ import { Parallax } from 'react-parallax';
 import { TypeAnimation } from 'react-type-animation';
 import CardsPic from '../components/CardsPic';
 import StandardImageList from '../components/StandardImageList';
-import Footer from '../components/Footer';
+import Card from 'react-bootstrap/Card';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import EmailIcon from '@mui/icons-material/Email';
 
 const Home = () => {
 
@@ -89,7 +91,22 @@ const Home = () => {
            </div>
 
       </div>
-      <Footer/>
+      {/* footer */}
+      <div className='footDiv-main'>
+        <Card  border="danger" style={{ width: '100%',height:'300px',backgroundColor:'black' }}>
+        
+        <Card.Body>
+          
+          <Card.Text>
+           <div className='foot-div'>
+              <InstagramIcon style={{color:'white',width:'70px',height:'70px'}}/>
+              <EmailIcon style={{color:'white',width:'70px',height:'70px',margin:'10px'}}/>
+            <p style={{color:'white'}} className='text-center'>All Rights &copy;  <b>FocusFrames</b> &reg; 2024</p>
+           </div>
+         </Card.Text>
+        </Card.Body>
+      </Card>
+    </div>
     </>
   )
 }

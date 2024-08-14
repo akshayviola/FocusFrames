@@ -25,7 +25,7 @@ const HeaderCanvas = ({ name, ...props }) => {
                         <h5 className='Navtitle'>Home</h5>
                         <h5 className='Navtitle'><a href="blog">Blog</a></h5>
                         <h5 className='Navtitle'>Photos</h5>
-                        <h5 className='Navtitle'>Contact</h5>
+                        <h5 className='Navtitle'><a href="footDiv-main">Contacts</a></h5>
 
                     </div>
                 </Offcanvas.Body>
